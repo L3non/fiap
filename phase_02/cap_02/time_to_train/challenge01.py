@@ -43,3 +43,6 @@ elif age >= 65:
         print('Beats per minute are within the appropriate range')
     else:
         print('Beats per minute are above the appropriate range')
+
+else:
+    print('It was not possible to verify the heartbeat for this age!')
