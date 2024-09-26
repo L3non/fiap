@@ -9,7 +9,7 @@ while op != 4:
     print("2 - Run code 2")
     print("3 - Run code 3")
     print("4 - Exit the program")
-    op = int(input("Informe sua opção: "))
+    op = int(input("Please, inform your option: "))
     
     # Checking available options
     if op == 1:
