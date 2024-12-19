@@ -1,0 +1,36 @@
+Problem: Given a value and percentage, calculate the percentage, markup and discount
+
+Input:
+    Value: 1000
+    Percentage: 15
+
+Output:
+    Percentage: 150
+    Addition: 1150
+    Discount: 850
+
+- Read the value
+- Read the percentage
+- Calculate the percentage
+- Calculate the addition
+- Calculate the discount
+- Display the percentage
+- Display the addition
+- Display the discount
+
+Example program:
+Var
+    value, p, perc, addi, dis: float
+
+Begin
+    Write "Enter a value: "
+    Read value
+    Write "Enter a percentage: "
+    Read p
+    perc = value * p / 100
+    addi = value + perc
+    dis = value - perc
+    Write "Percentage: ", perc
+    Write "Addition: ", addi
+    Write "Discount: ", dis
+End

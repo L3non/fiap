@@ -1,0 +1,8 @@
+Data output: Display something on the screen
+
+Example program
+
+Begin
+    Write "Edson de Oliveira"
+    Write "48 years"
+End
