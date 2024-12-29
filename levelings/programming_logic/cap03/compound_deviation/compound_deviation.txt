@@ -1,0 +1,33 @@
+A company will give its employees a raise.
+If they have worked for the company for less than three years,
+they will receive a 5% raise, otherwise 10%.
+INPUT 1:
+    Time at the company: 2
+    Salary: 5000
+OUTPUT 1:
+    Your salary went from 5000 to 5250
+
+INPUT 2:
+    Time at the company: 5
+    Salary: 2000
+OUTPUT 2:
+    Your salary went from 2000 to 2200
+
+== == == == == == == == == == == == == == == == ==
+Program ex_desvio_composto
+Var
+    tc: integer
+    sal, increment, new_sal: real
+Start
+    Write "Enter your time at the company: "
+    Read tc
+    Write "Enter your salary: "
+    Read sal
+    If tc < 3 then
+        increment = salary * 0.05
+    Else
+        increment = salary * 0.1
+    End_if
+    new_sal = sal + increment
+    Write "Your salary went from ", sal, "to ", new_sal
+End

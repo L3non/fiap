@@ -1,0 +1,33 @@
+Given a number by the user, display the corresponding day of the week:
+INPUT:
+    Number: 5
+OUTPUT:
+    Thursday
+
+== == == == == == == == == == == == == == ==
+Program Example_choose
+var
+    day: integer
+start
+    Write "Enter a number: "
+    read day
+
+    Choose (day)
+    case 1:
+        Write "Sunday"
+    case 2:
+        Write "Monday"
+    case 3:
+        Write "Tuesday"
+    case 4:
+        Write "Wednesday"
+    case 5:
+        Write "Thursday"
+    case 6:
+        Write "Friday"
+    case 7:
+        Write "Saturday"
+    else
+        Write "Invalid day!"
+    end_choose
+end
