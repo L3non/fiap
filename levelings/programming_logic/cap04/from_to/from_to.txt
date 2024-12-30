@@ -1,0 +1,49 @@
+Given 2 numbers, display the numbers in the range
+INPUT:
+    Enter 2 numbers: 3 9
+OUTPUT:
+    Range: 3 4 5 6 7 8 9
+
+== == == == == == == == == == == == == ==
+Program for_loop
+Var
+    ini, f, cont: integer
+
+Start
+    Write "Enter two numbers: "
+    Read ini
+    Read f
+    for count from ini to f inc 1 do
+        Write count
+    end_for
+End
+
+== == == == == == == == == == == == == ==
+Program while_do_loop
+Var
+    ini, f: integer
+
+Start
+    Write "Enter two numbers: "
+    Read ini
+    Read f
+    while ini <= f do
+        Write ini
+        ini = ini +1
+    end_while
+End
+
+== == == == == == == == == == == == == ==
+Program do_while_loop
+Var
+    ini, f: integer
+
+Start
+    Write "Enter two numbers: "
+    Read ini
+    Read f
+    Do
+        Write ini
+        ini = ini +1
+    Enquanto ini <= f
+End
