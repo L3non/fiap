@@ -1,0 +1,27 @@
+Create a procedure that displays a greeting message on the screen
+
+PROCEDURE:
+    greeting()
+
+OUTPUT:
+    Welcome to FIAP!
+
+== == == == == == == == == == == == ==
+Procedure greeting(time:integer)
+Var
+    msg: Text
+Start
+    if time < 12 then
+        msg = "Good morning"
+    else if time < 18 then
+        msg = "Good afternoon"
+    else
+        msg = "Good evening"
+
+    Write msg, ", welcome to FIAP!"
+End
+
+Program ex_procedure
+Start
+    greeting(8)
+End
