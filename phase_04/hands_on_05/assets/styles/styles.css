@@ -1,0 +1,62 @@
+:root {
+    /* Radius */ 
+    --radius: .7rem;
+
+    /* Colors */
+    --color-pink: #dc143c;
+    --color-light: #f4f4f4;
+    --color-dark: #333;
+
+    /* Spaces */
+    --space-10: 1rem;
+    --space-20: 2rem;
+    --space-40: 4rem;
+
+    /* Transitions */
+    --transition: .5s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {font-size: 62.5%;}
+
+body {
+    background-color: var(--color-light);
+    font-size: 1.6rem;
+}
+
+.container {
+    border-radius: var(--radius);
+    background-color: var(--color-dark);
+    margin: var(--space-40) auto;
+    padding: var(--space-40);
+    width: 80%;
+    min-height: 30vh;
+    text-align: center;
+}
+
+.container-title {
+    color: var(--color-light);
+    font-size: 6vmin;
+    margin-bottom: var(--space-20);
+}
+
+.icon {
+    border: 1px solid var(--color-light);
+    border-radius: var(--radius);
+    color: var(--color-light);
+    margin: var(--space-10);
+    padding: var(--space-20);
+    font-size: 7vmin;
+    transition: var(--transition);
+}
+
+.icon:hover {
+    background-color: var(--color-pink);
+    border-color: var(--color-pink);
+}
