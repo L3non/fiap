@@ -1,0 +1,26 @@
+Given a sale, calculate the 10% discount if the sale is over 300 reais.
+
+INPUT 1:
+    Sale: 500
+OUTPUT 1:
+    Final value: 450
+
+INPUT 2:
+    Sale: 200
+OUTPUT 2:
+    Final value: 200
+
+== == == == == == == == == == == == == == == == == == ==
+
+Program ex_desvio simples
+Var
+    sale, discount: Real
+start
+    Write "Enter the sale value: "
+    Read sale
+    If sale > 300 then
+        discount = sale * 10 / 100
+        sale = sale - discount
+    end_if
+    Write "New value = ", sale
+end

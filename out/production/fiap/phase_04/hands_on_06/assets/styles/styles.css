@@ -1,0 +1,114 @@
+:root {
+    /* Colors */
+    --color-light: #fff;
+    --color-blue: #6959c5;
+
+    /* Transitions */
+    --transition: .5s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {font-size: 62.5%;}
+body {font-size: 1.6rem;}
+img {max-width: 100%;}
+
+a {
+    color: var(--color-light);
+    text-decoration: none;
+    font-weight: 900;
+    transition: var(--transition);
+}
+
+.btn {
+    border: 2px solid var(--color-blue);
+    border-radius: 5px;
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    padding: 8px 3.5rem;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--color-blue);
+}
+
+/* == == == Hero == == == */
+.hero {
+    background-image: linear-gradient(rgba(4, 9, 30, .3), rgba(4, 9, 30, .9)),
+                      url(../images/main.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero_content {
+    color: var(--color-light);
+    padding: 5rem;
+    width: 60%;
+}
+
+.hero_content h2 {font-size: 7vmin;}
+
+.hero_content p {
+    margin-bottom: 2rem;
+    line-height: 3.6rem;
+    font-weight: 600;
+}
+
+/* == == == Hotels == == == */
+.hotel_title {
+    color: var(--color-blue);
+    margin: 4rem 0 2rem;
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.hotel_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hotel_item {
+    box-shadow: 1px 1px 30px #ccc;
+    border-radius: 5px;
+    margin: 3rem 0;
+    padding: 2rem;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.hotel_item:hover {transform: scale(1.1);}
+
+.hotel_item img {
+    border-radius: 5px;
+    width: 90%;
+}
+
+.hotel_item h3 {
+    margin: 2rem 0;
+    font-weight: 800;
+}
+
+.hotel_item p {
+    margin: 0 0 3rem;
+    width: 80%;
+}

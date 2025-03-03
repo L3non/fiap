@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class input {
+class inputt {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num, dou;

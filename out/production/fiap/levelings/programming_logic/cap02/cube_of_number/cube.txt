@@ -1,0 +1,22 @@
+Problem: Given a number by the user, calculate and display its cube
+
+Input:
+    Number: 2
+
+Output:
+    The cube is 8
+
+- Read the number
+- Calculate the cube
+- Display the cube value
+
+Example program:
+Var
+    num, cube: int
+
+Begin
+    Write "Enter a number: "
+    Read num
+    cube = num ** 3
+    Write "Cube = ", cube
+End

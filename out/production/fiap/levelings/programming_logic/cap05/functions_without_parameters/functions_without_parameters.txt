@@ -1,0 +1,18 @@
+Create a real function that returns the value of pi (3.14159) to calculate the area of ​​a circle with radius 5 (a = pi * r²).
+FUNCTION:
+    pi(): real
+
+OUTPUT:
+    The area of ​​the circle with radius 5.0 is 78.53975
+
+Function pi(): Real
+Start
+    return (3.14159)
+End
+
+Program ex_function_without_parameter
+Start
+    r = 5
+    a = pi() * r ** 2
+    Write "The area of ​​the circle with radius 5.0 is", a
+End
