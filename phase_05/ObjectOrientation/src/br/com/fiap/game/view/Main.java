@@ -1,3 +1,8 @@
+package br.com.fiap.game.view;
+
+import br.com.fiap.game.model.SpecialSkill;
+import br.com.fiap.game.model.MagicalCharacter;
+
 import java.util.Scanner;
 
 public class Main {
@@ -18,12 +23,12 @@ public class Main {
                     String power =  sc.next() + sc.nextLine();
                     System.out.println("Enter energy level:");
                     int energy = sc.nextInt();
-                    character.name = name;
-                    character.energyLevel = energy;
-                    character.magicalPower = power;
+                    character.setName(name);
+                    character.setEnergyLevel(energy);
+                    character.setMagicalPower(power);
                     break;
                 case 2:
-                    System.out.println("Name: " + character.name + " Power: " + character.magicalPower + " Energy level: " + character.energyLevel);
+                    System.out.println("Name: " + character.getName() + " Power: " + character.getMagicalPower() + " Energy level: " + character.getEnergyLevel());
                     break;
                 case 0:
                     System.out.println("Finishing program");

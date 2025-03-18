@@ -1,3 +1,7 @@
+package br.com.fiap.game.view;
+
+import br.com.fiap.game.model.MagicalCharacter;
+import br.com.fiap.game.model.SpecialSkill;
 import java.util.Scanner;
 
 public class Menu {
@@ -21,29 +25,27 @@ public class Menu {
                     System.out.println("Enter the energy level of the character: ");
                     int energy = sc.nextInt();
 
-                    character.name = name;
-                    character.energyLevel = energy;
-                    character.magicalPower = power;
+                    character.setName(name);
+                    character.setMagicalPower(power);
+                    character.setEnergyLevel(energy);
 
                     System.out.println("Enter the special skill name: ");
                     String skillName = sc.next() + sc.nextLine();
 
                     System.out.println("Enter the energy cost to use the special skill: ");
-                    int energyLevel = sc.nextInt();
+                    int energyCost = sc.nextInt();
 
                     System.out.println("The skill is activated? (true/false): ");
                     boolean activated = sc.nextBoolean();
 
                     // Creating the object who represents the special skill with user's value
-                    SpecialSkill specialSkill = new SpecialSkill(skillName, energyLevel, activated);
-
-                    // Assigning the object special skill to character
-                    character.specialSkill = specialSkill;
+                    SpecialSkill specialSkill = new SpecialSkill(skillName, energyCost, activated);
+                    character.setSpecialSkill(specialSkill);
                     break;
 
                 case 2:
-                    System.out.println("Name: " + character.name + " Power: " + character.magicalPower + " Energy level: " + character.energyLevel);
-                    System.out.println("Skill: " + character.specialSkill.name + " Energy cost: " + character.specialSkill.energyCost + " Activated: " + character.specialSkill.activated);
+                    System.out.println("Name: " + character.getName() + " Power: " + character.getMagicalPower() + " Energy level: " + character.getEnergyLevel());
+                    System.out.println("Skill: " + character.getSpecialSkill().getName() + " Energy cost: " + character.getSpecialSkill().getEnergyCost() + " Activated: " + character.getSpecialSkill().isActivated());
                     break;
 
                 case 3:
@@ -65,7 +67,7 @@ public class Menu {
                     break;
 
                 case 6:
-                    character.specialSkill.activateSpecialSkill();
+                    character.getSpecialSkill().activateSpecialSkill();
                     break;
 
                 case 0:
