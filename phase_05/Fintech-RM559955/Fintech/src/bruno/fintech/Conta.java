@@ -1,4 +1,6 @@
-class Conta {
+package bruno.fintech;
+
+public class Conta {
     private String numero;
     private double saldo;
 

@@ -1,3 +1,7 @@
+package view;
+
+import bruno.fintech.*;
+
 public class FintechTeste {
     public static void main(String[] args) {
         Usuario usuario = new Usuario("João Silva", "joao@email.com", "(11) 98765-4321", "123.456.789-00");

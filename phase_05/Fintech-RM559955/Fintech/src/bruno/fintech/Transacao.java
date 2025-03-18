@@ -1,4 +1,6 @@
-class Transacao {
+package bruno.fintech;
+
+public class Transacao {
     private double valor;
     private String tipo;
 

@@ -1,3 +1,5 @@
+package bruno.fintech;
+
 abstract class Ativo {
     private double valor;
     private String tipo;
@@ -11,6 +13,6 @@ abstract class Ativo {
     public String getTipo() { return tipo; }
 
     public void consultarAtivo() {
-        System.out.println("Ativo do tipo: " + tipo + " | Valor: R$" + valor);
+        System.out.println("bruno.fintech.Ativo do tipo: " + tipo + " | Valor: R$" + valor);
     }
 }

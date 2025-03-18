@@ -1,9 +1,11 @@
-class Receita extends Ativo {
+package bruno.fintech;
+
+public class Receita extends Ativo {
     private String fonte;
     private String descricao;
 
     public Receita(String fonte, String descricao, double valor) {
-        super(valor, "Receita");
+        super(valor, "bruno.fintech.Receita");
         this.fonte = fonte;
         this.descricao = descricao;
     }
