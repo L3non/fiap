@@ -118,9 +118,3 @@ fun CounterScreen(modifier: Modifier = Modifier) {
         )
     }
 }
-
-@Composable
-fun BoxScreen() {
-    Text(text = "FIAP")
-    Text(text = "ON")
-}
