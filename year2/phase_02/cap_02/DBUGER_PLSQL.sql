@@ -1,4 +1,4 @@
--- Habilita 1.000.000 caracteres para serem exibidos pelo pacote dbms_output
+-- Enables 1,000,000 characters to be displayed by the dbms_output package
 set serveroutput on size 1000000;
 
 declare
