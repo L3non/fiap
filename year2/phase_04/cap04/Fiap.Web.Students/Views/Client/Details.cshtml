@@ -1,0 +1,53 @@
+﻿@model Fiap.Web.Students.Models.ClientModel
+<h1>Cliente</h1>
+<h4>Detalhe</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label asp-for="Name" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.Name</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="LastName" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.LastName</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="Email" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.Email</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="DateOfBirth" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.DateOfBirth</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="Observation" class="control-label fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.Observation</span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="Representative" class="control-label  fw-bold"></label>
+            <div class="col-md-10">
+                <span>@Model.Representative.RepresentativeName</span>
+            </div>
+        </div>
+        <br />
+    </div>
+</div>
+<div>
+    <a asp-action="Index" asp-controller="Client">Go back</a>
+</div>

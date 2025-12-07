@@ -1,0 +1,58 @@
+﻿@model Fiap.Web.Students.Models.ClientModel
+
+<h1>Client</h1>
+
+<h4>New</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <!-- IMPORTANT form element -->
+        <form asp-action="Create" asp-controller="Client">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ClientId" class="control-label"></label>
+
+                <!-- IMPORTANT asp-for input elements="Model Property Name" -->
+                <input asp-for="ClientId" class="form-control" />
+                <span asp-validation-for="ClientId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observation" class="control-label"></label>
+                <input asp-for="Observation" class="form-control" />
+                <span asp-validation-for="Observation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RepresentativeId" class="control-label"></label>
+                <input asp-for="RepresentativeId" class="form-control" />
+                <span asp-validation-for="RepresentativeId" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index" asp-controller="Client">Go back</a>
+</div>

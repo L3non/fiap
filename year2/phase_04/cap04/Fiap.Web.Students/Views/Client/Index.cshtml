@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ClientModel>
+
+<h1>Clients</h1>
+
+@if (!string.IsNullOrEmpty((String)TempData["successMessage"]))
+{
+    <div class="alert alert-warning" role="alert">@TempData["successMessage"]</div>
+}
+
+<p>
+    <a asp-action="Create" asp-asp-controller="Client">New Client</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Date of Birth</th>
+            <th>Representative</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var client in Model)
+        {
+            <tr>
+                <td>
+                    <label>@client.ClientId</label>
+                </td>
+                <td>
+                    <label>@client.Name</label>
+                </td>
+                <td>
+                    <label>@client.LastName</label>
+                </td>
+                <td>
+                    <label>@client.Email</label>
+                </td>
+                <td>
+                    <label>@client.DateOfBirth</label>
+                </td>
+                <td>
+                    <label>@client.Representative.RepresentativeName</label>
+                </td>
+                <td>
+                    <a asp-controller="Client" asp-action="Edit" asp-route-id="@client.ClientId">Edit</a>
+                    <a asp-controller="Client" asp-action="Details" asp-route-id="@client.ClientId">Consult</a>
+                    <a asp-controller="Client" asp-action="Delete" asp-route-id="@client.ClientId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

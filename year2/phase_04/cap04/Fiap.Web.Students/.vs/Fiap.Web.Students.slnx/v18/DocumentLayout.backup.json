@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|c:\\users\\bruno\\documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\fiap.web.students\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|c:\\users\\bruno\\documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\fiap.web.students\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|solutionrelative:views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|c:\\users\\bruno\\documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\fiap.web.students\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B1C350E-2293-4423-2C1E-993CEA7D5B50}|Fiap.Web.Students.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T02:57:59.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Client\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "Views\\Client\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T02:57:38.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Controllers\\ClientController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T01:33:42.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

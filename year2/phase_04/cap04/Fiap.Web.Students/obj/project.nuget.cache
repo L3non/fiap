@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lSG+qoiYSco=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bruno\\Documents\\z-programing\\fiap\\year2\\phase_04\\cap04\\Fiap.Web.Students\\Fiap.Web.Students.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bruno\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}
