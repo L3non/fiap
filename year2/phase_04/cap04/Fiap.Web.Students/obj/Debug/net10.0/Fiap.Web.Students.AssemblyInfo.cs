@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fiap.Web.Students")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a44a8fa4532fcc24a723144fec6837768026a08e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25a4b213bde7b08df13159e06c096b39d00dbdef")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fiap.Web.Students")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fiap.Web.Students")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
